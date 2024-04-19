@@ -1,0 +1,46 @@
+body{
+    background:#F8DCDB;
+    color: gray;
+}
+nav{
+    padding: 10px- 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 400;
+}
+.content{
+    margin-top: 5%;
+    max-width: 500px;
+}
+.content h2{
+    font-size: 50px;
+    color: rgb(165, 42, 138);
+}
+.content p{
+    margin:10px 0 30px;
+    color: rgb(250, 252, 252);
+}
+.content button{
+    padding:15px 15px;
+    font-size: 15px;
+    color:#F8DCDB;
+    background: rgb(126, 124, 125);
+    border: none;
+    cursor: pointer;
+}
+.feature-img{
+    position:absolute;
+    bottom: 70px;
+    right:15%;
+    
+}
